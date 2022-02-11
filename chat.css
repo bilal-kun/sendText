@@ -1,0 +1,94 @@
+#left, #right{
+    background-color: rgb(47, 47, 49);
+    color: white;
+    height: 700px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 2px 10px 0px rgb(99, 99, 99);
+}
+
+#leftin, #rightin{
+    background-color: white;
+    color: black;
+    height: 600px;
+    position: relative;
+}
+
+#inp{
+    border-radius: 20px;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+    resize: none;
+    outline: none;
+    padding-left: 10px;
+    
+}
+
+#inp2{
+    border-radius: 20px;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+    resize: none;
+    outline: none;
+    padding-left: 10px;
+
+}
+
+#speaker{
+    width: 70px;
+    height: 10px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 30px;
+    position: relative;
+    top: 670px;
+    right: 770px;
+    box-shadow: inset -1px -3px 1px 0px rgb(133, 133, 133);
+}
+
+#speaker2{
+    width: 70px;
+    height: 10px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 30px;
+    position: relative;
+    top: 670px;
+    right: 350px;
+    box-shadow: inset -1px -3px 1px 0px rgb(133, 133, 133);
+}
+
+.dis{
+    background-color: rgb(25, 163, 255);
+    color: white;
+    height: 25px;
+    text-align: left;
+    border-radius: 20px;
+    padding-left: 10px;
+    
+    
+}
+
+/* .dis{
+    display: none;
+} */
+
+
+#buttleft{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 560px;
+    left: 380px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+#sendimg{
+    width: 25px;
+    
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="chat.css">
+    <title>Chat App</title>
+</head>
+
+<body>
+    <script src="chat.js"></script>
+    <br><br>
+    <main class="container row text-center m-auto">
+        <section class="col-5 m-auto" id="left">
+            <br>
+            <br>
+            <div class="col-12 m-auto row" id="leftin">
+                <textarea name="text" id="inp" cols="45" rows="1"></textarea>
+                <button id="buttleft" type="button" onclick="sendText()"><img id="sendimg"
+                        src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-send-user-interface-kmg-design-flat-kmg-design.png" /></button>
+            </div>
+        </section>
+        <section class="col-5 m-auto" id="right">
+            <br>
+            <br>
+            <div class="col-12 m-auto" id="rightin">
+                <br>
+                <div id="chatbox" class="col-6 " class="dis"></div>
+                <textarea name="text" id="inp2" cols="45" rows="1"></textarea>
+                <button id="buttleft" type="button"><img id="sendimg"
+                        src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-send-user-interface-kmg-design-flat-kmg-design.png" /></button>
+            </div>
+        </section>
+        <footer id="speaker"></footer>
+        <footer id="speaker2"></footer>
+    </main>
+
+</body>
+
+</html>
